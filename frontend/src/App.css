@@ -1,0 +1,16 @@
+/* App.css */
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App .properties-page {
+  margin-top: 20px;
+}
+
+.App .search-header {
+  margin-bottom: 30px;
+}

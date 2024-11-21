@@ -1,0 +1,40 @@
+.property-list {
+  display: flex;
+  flex-direction: column; /* Affiche les propriétés en liste */
+  gap: 20px; /* Espace entre les éléments */
+  padding: 20px;
+}
+
+.property-item {
+  display: flex;
+  align-items: flex-start; /* Alignement des contenus */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.property-image {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.property-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.property-details h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.property-details p {
+  margin: 5px 0;
+  color: #555;
+  font-size: 14px;
+}

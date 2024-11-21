@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Appartement à Melun",
+    "price": "105.000 €",
+    "size": "30 m²",
+    "location": "Melun",
+    "image": "https://cdn.pap.fr/photos/pap/95/c8/95c8940a26cb58add46fa3b1a0fdf5f2/9-p3.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Appartement à La Garenne-Colombes",
+    "price": "555.000 €",
+    "size": "80 m²",
+    "location": "La Garenne-Colombes (92250)",
+    "image": "https://cdn.pap.fr/photos/pap/df/ae/dfae921e569cf434b633684f0e5fdff8/d-p3.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Appartement à Paris 18E",
+    "price": "260.000 €",
+    "size": "29 m²",
+    "location": "Paris 18E (75018)",
+    "image": "https://cdn.pap.fr/photos/pap/e3/c3/e3c3166140eccb0bf5517da0c5b8b74a/e-p3.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Appartement à La Garenne-Colombes",
+    "price": "310.000 €",
+    "size": "74 m²",
+    "location": "La Garenne-Colombes (92250)",
+    "image": "https://cdn.pap.fr/photos/pap/71/fd/71fddef9610d4abbe1420fe13b989b32/7-p3.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Maison à Bagnolet",
+    "price": "949.000 €",
+    "size": "210 m²",
+    "location": "Bagnolet",
+    "image": "https://via.placeholder.com/300"
+  }
+]
