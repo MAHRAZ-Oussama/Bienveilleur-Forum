@@ -13,7 +13,7 @@ const apiService = {
         grossYield: "6.0%",
         netYield: "5.5%",
       },
-      {
+     {
         id: 2,
         image: "https://cdn.pap.fr/photos/pap/df/ae/dfae921e569cf434b633684f0e5fdff8/d-p3.jpg",
         price: "555,000 €",
@@ -23,6 +23,11 @@ const apiService = {
         cashFlow: "-800 €",
         grossYield: "4.0%",
         netYield: "3.8%",
+        state: "Bon état",
+        constructionYear: 2010,
+        energyPerformance: "C",
+        monthlyCharges: 100,
+        proximity: "Transports, commerces",
       },
       {
         id: 3,
@@ -34,6 +39,11 @@ const apiService = {
         cashFlow: "-300 €",
         grossYield: "5.5%",
         netYield: "5.2%",
+        state: "Bon état",
+        constructionYear: 2015,
+        energyPerformance: "D",
+        monthlyCharges: 80,
+        proximity: "Métro, commerces"
       },
       {
         id: 4,
@@ -45,6 +55,11 @@ const apiService = {
         cashFlow: "-600 €",
         grossYield: "4.8%",
         netYield: "4.5%",
+        state: "Bon état",
+        constructionYear: 2008,
+        energyPerformance: "C",
+        monthlyCharges: 120,
+        proximity: "Transports, écoles"
       },
       {
         id: 5,
@@ -56,6 +71,11 @@ const apiService = {
         cashFlow: "-1,346 €",
         grossYield: "3.7%",
         netYield: "3.4%",
+        state: "À rénover",
+        constructionYear: 1900,
+        energyPerformance: "E",
+        monthlyCharges: 150,
+        proximity: "Commerces, écoles"
       },
       {
         id: 6,
@@ -67,6 +87,11 @@ const apiService = {
         cashFlow: "-500 €",
         grossYield: "6.0%",
         netYield: "5.5%",
+        state: "Neuf",
+        constructionYear: 2020,
+        energyPerformance: "B",
+        monthlyCharges: 50,
+        proximity: "Écoles, commerces"
       },
       {
         id: 7,
@@ -78,6 +103,11 @@ const apiService = {
         cashFlow: "-800 €",
         grossYield: "4.0%",
         netYield: "3.8%",
+        state: "Bon état",
+        constructionYear: 2010,
+        energyPerformance: "C",
+        monthlyCharges: 100,
+        proximity: "Transports, commerces"
       },
       {
         id: 8,
@@ -89,6 +119,11 @@ const apiService = {
         cashFlow: "-300 €",
         grossYield: "5.5%",
         netYield: "5.2%",
+        state: "Bon état",
+        constructionYear: 2015,
+        energyPerformance: "D",
+        monthlyCharges: 80,
+        proximity: "Métro, commerces"
       },
       {
         id: 9,
@@ -100,6 +135,11 @@ const apiService = {
         cashFlow: "-600 €",
         grossYield: "4.8%",
         netYield: "4.5%",
+        state: "Bon état",
+        constructionYear: 2008,
+        energyPerformance: "C",
+        monthlyCharges: 120,
+        proximity: "Transports, écoles"
       },
       {
         id: 10,
@@ -111,6 +151,11 @@ const apiService = {
         cashFlow: "-1,346 €",
         grossYield: "3.7%",
         netYield: "3.4%",
+        state: "À rénover",
+        constructionYear: 1900,
+        energyPerformance: "E",
+        monthlyCharges: 150,
+        proximity: "Commerces, écoles"
       },
       {
         id: 11,
@@ -122,6 +167,11 @@ const apiService = {
         cashFlow: "-927 €",
         grossYield: "4.5%",
         netYield: "4.2%",
+        state: "Bon état",
+        constructionYear: 2010,
+        energyPerformance: "C",
+        monthlyCharges: 90,
+        proximity: "Transports, commerces"
       },
       {
         id: 12,
@@ -133,50 +183,75 @@ const apiService = {
         cashFlow: "-2,000 €",
         grossYield: "4.0%",
         netYield: "3.8%",
+        state: "Bon état",
+        constructionYear: 2005,
+        energyPerformance: "B",
+        monthlyCharges: 200,
+        proximity: "Parcs, écoles"
       },
       {
         id: 13,
         image: "https://cdn.pap.fr/photos/pap/1e/b2/1eb25bc2a0f10d5dcf868487e3654477/1-p3.jpg",
-        price: "680.000 €",
+        price: "680,000 €",
         location: "Montreuil (93100)",
         type: "Appartement",
         surface: "85 m²",
-        cashFlow: "-2,000 €", // Exemple de cash flow à ajouter
-        grossYield: "4.0%",   // Exemple de rendement brut
-        netYield: "3.8%",     // Exemple de rendement net
+        cashFlow: "-2,000 €",
+        grossYield: "4.0%",
+        netYield: "3.8%",
+        state: "Bon état",
+        constructionYear: 2010,
+        energyPerformance: "C",
+        monthlyCharges: 180,
+        proximity: "Transports, commerces"
       },
       {
         id: 14,
         image: "https://cdn.pap.fr/photos/pap/4c/c7/4cc70984641e5b91e6e361f86dfe2b51/4-p3.jpg",
-        price: "420.000 €",
+        price: "420,000 €",
         location: "Marolles-En-Hurepoix (91630)",
         type: "Maison",
         surface: "141 m²",
-        cashFlow: "-1,500 €", // Exemple de cash flow à ajouter
-        grossYield: "3.5%",   // Exemple de rendement brut
-        netYield: "3.2%",     // Exemple de rendement net
+        cashFlow: "-1,500 €",
+        grossYield: "3.5%",
+        netYield: "3.2%",
+        state: "Bon état",
+        constructionYear: 2000,
+        energyPerformance: "D",
+        monthlyCharges: 150,
+        proximity: "Écoles, commerces"
       },
       {
         id: 15,
         image: "https://cdn.pap.fr/photos/pap/c8/0f/c80f648572814d939b5424e81cbf13ac/c-p3.jpg",
-        price: "699.000 €",
+        price: "699,000 €",
         location: "Châtillon (92320)",
         type: "Appartement",
         surface: "103 m²",
-        cashFlow: "-1,800 €", // Exemple de cash flow à ajouter
-        grossYield: "4.5%",   // Exemple de rendement brut
-        netYield: "4.2%",     // Exemple de rendement net
+        cashFlow: "-1,800 €",
+        grossYield: "4.5%",
+        netYield: "4.2%",
+        state: "Bon état",
+        constructionYear: 2012,
+        energyPerformance: "C",
+        monthlyCharges: 180,
+        proximity: "Transports, commerces"
       },
       {
         id: 16,
         image: "https://cdn.pap.fr/photos/pap/53/6d/536d165f152fc9d15d5defea7591f0bb/5-p3.jpg",
-        price: "355.000 €",
+        price: "355,000 €",
         location: "Bazainville (78550)",
         type: "Maison",
         surface: "130 m²",
-        cashFlow: "-1,200 €", // Exemple de cash flow à ajouter
-        grossYield: "3.8%",   // Exemple de rendement brut
-        netYield: "3.5%",     // Exemple de rendement net
+        cashFlow: "-1,200 €",
+        grossYield: "3.8%",
+        netYield: "3.5%",
+        state: "Bon état",
+        constructionYear: 2000,
+        energyPerformance: "C",
+        monthlyCharges: 140,
+        proximity: "Commerces, écoles"
       }
       
       
